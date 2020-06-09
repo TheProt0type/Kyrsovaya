@@ -1,0 +1,922 @@
+body {
+    background-color: white;
+    overflow-x:hidden;
+    background-color: #da8dfa;
+}
+
+.small-header {
+    background-color: #292929;
+}
+
+.big-header{
+   margin: 10px;
+}
+
+.wrapper {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+}
+
+.top-header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arcadia, sans-serif;
+    font-size: 15px;
+}
+
+.bottom-header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu a{
+    padding: 9px;
+    text-decoration: none;
+    color: black;
+    font-family: Giddyup, sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    position: relative;
+    right: 30%;
+    margin: 10px;
+}
+
+.head-menu li, .main-menu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-media a{
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+.laung {
+    position: relative;
+    display: block;
+    width: 110px;
+    height: 29px;
+    background-color: black;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #59f494;
+}
+
+.laung a{
+    position: relative;
+    top: 4px;
+    text-decoration: none;
+    font-family: Agency FB V2, sans-serif;
+    padding: 15px;
+    color: #fcf8ea;
+    font-size: 20px;
+
+}
+
+.laung ul {
+    display: none;
+    position: absolute;
+}
+
+.laung:hover ul {
+    display: block;
+}
+
+ul.social-media li {
+    display: inline-block;
+}
+
+.figure{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    top: -657px;
+    margin: 5px;
+}
+
+.triugol{
+    width: 0; 
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 70px solid #da8dfa;
+}
+
+main{
+ 
+}
+
+.banner img{
+    position: relative;
+    width: 1350px;
+    right: 30px;
+}
+
+.lines-glav{
+   position: relative;
+   right: 10px;
+   top: -15px;
+}
+
+.lines{
+    position: absolute;
+    bottom: 280px;
+    left: 545px;
+    width: 220px; height: 220px;
+    border: 4px solid #b046de;
+    border-radius: 3px;
+}
+
+.square{
+    position: absolute;
+    left: 557px;
+    bottom: 292px;
+    width: 200px; height: 200px;
+    border: 2px solid #15ef40;
+}
+.square a{
+    display: flex;
+    justify-content: center;
+    font-family: Arcadia, sans-serif;
+}
+
+.text-square-mid{
+    margin: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.text-square-sale{
+    font-size: 30px;
+    color: black;
+}
+
+.left-line{
+   text-align: left;
+}
+
+.text-square-up-to{
+    font-size: 20px;
+    color: white;
+}
+
+.lines-up-to-1{
+}
+
+.text-square-off{
+    margin-left: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.shop-btn{
+    position: relative;
+    left: 582px;
+    bottom: 230px;
+}
+
+.button{
+    width: 130px;
+    height: 35px;
+    background-color: #ca09f9;
+    font-size: 25px;
+    text-decoration: ;
+    font-family: Agency FB V2, sans-serif;
+    border: none;
+}
+
+.button:hover{
+    background-color: #15ef40;
+    box-shadow: 0 0 25px #15ef40;
+}
+
+/* Стрелки в баннере */
+
+.arrows{
+    position: relative;
+    bottom: 55px;
+}
+
+.arrow-1{ /* правая */
+    position: relative;
+    left: 630px;
+    bottom: 270px;
+}
+
+.arrow-right{
+     width: 0; 
+     height: 0;
+     border-top: 30px solid transparent;
+     border-left: 20px solid #59f494;
+     border-bottom: 30px solid transparent;
+}
+
+.arrow-2{/* Левая */
+    position: relative;
+    right: 640px;
+    bottom: 330px;
+}
+
+.arrow-left{
+     width: 0; 
+     height: 0;
+     border-top: 30px solid transparent;
+     border-right: 20px solid #59f494;
+     border-bottom: 30px solid transparent;
+}
+
+.rom{
+    position: absolute;
+}
+
+.rombs{
+   position: relative;
+   bottom: 250px;
+   right: -20px;
+}
+
+/* Внутрянка ромбиков в классе .one, .two, .three*/
+
+.romb-one{
+   position: relative;
+   top: 85px;
+   left: 575px;
+}
+
+.one{
+    width: 15px;
+    height: 15px;
+    background: #ec3a28; 
+    transform: rotate(135deg);
+    background-color: #59f494;
+}
+
+.romb-two{
+   position: relative;
+   top: -15px;
+   left: 45px;
+}
+
+.two{
+    width: 15px;
+    height: 15px;
+    background: #ec3a28; 
+    transform: rotate(135deg);
+    background-color: #eaf40e;
+}
+
+.romb-three{
+   position: relative;
+   top: -15px;
+   left: 45px;
+}
+
+.three{
+    width: 15px;
+    height: 15px;
+    background: #ec3a28; 
+    transform: rotate(135deg);
+    background-color: #59f494;
+}
+
+
+.threes-square{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     font-family: Agency FB V2, sans-serif;
+}
+
+.one-square{
+    width: 350px;
+    height: 120px;
+    background: #ca09f9; 
+}
+
+.threes-square h1, h2{
+   position: relative;
+   font-size: 20px;
+   bottom: px;
+   left: 150px;
+}
+
+/*первая стрелка на тот свет*/
+.one-square-arrow{
+   position: absolute;
+   left: 360px;
+   width: 0; 
+   height: 0;
+   border-top: 60px solid transparent;
+   border-left: 70px solid #ca09f9;
+   border-bottom: 60px solid transparent;
+}
+
+.two-square{
+    width: 400px;
+    height: 120px;
+    font-size: 20px;
+    background: #d73efc; 
+}
+
+.two-square-arrow-left{
+  position: absolute;
+   left: 475px;
+   width: 0; 
+   height: 0;
+   border-top: 60px solid transparent;
+   border-left: 70px solid #da8dfa;
+   border-bottom: 60px solid transparent;
+}
+
+.two-square-arrow-right{
+   position: absolute;
+    right: 474px;
+    width: 0; 
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 70px solid #da8dfa;
+    border-bottom: 60px solid transparent;
+}
+
+.three-square{
+    width: 350px;
+    height: 120px;
+    background: #ca09f9; 
+}
+
+/*третья стрелка на тот свет*/
+.three-square-arrow{
+    position: absolute;
+    right: 360px;
+    width: 0; 
+    height: 0;
+    border-top: 60px solid transparent;
+    border-right: 70px solid #ca09f9;
+    border-bottom: 60px solid transparent;
+}
+
+.fly-img, .hz-img{
+   position: relative;
+   top: 40px;
+   left: 40px;
+}
+
+.clock-img{
+  position: relative;
+  top: 40px;
+  left: 95px;
+}
+
+
+.collection{
+    text-align: center;
+    font-family: Giddyup, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.99);
+    font-size: 30px;
+    margin: 8px 0px;
+}
+.hr-sect::before, .hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    margin: 0px 50px;
+}
+
+.romb-left{
+    padding-right: 20px;
+}
+
+.rombic-1{
+    width: 15px;
+    height: 15px;
+    background: #eaf40e; 
+    transform: rotate(135deg);
+}
+
+.text-collection{
+    font-size: 35px;
+    padding: 15px;
+}
+
+.romb-right{
+    padding-left: 20px;
+}
+
+.rombic-2{
+    width: 15px;
+    height: 15px;
+    background: #eaf40e; 
+    transform: rotate(135deg);
+}
+
+
+/*Для первой строчки фоток*/
+.photo-form{
+    border: px solid black;
+}
+
+
+.one-row{
+  display: flex;
+  justify-content: space-around;
+}
+
+form h1{
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  font-size: 20px;
+  font-family: Agency FB V2, sans-serif;
+  color: #e8dbee;
+}
+
+form p{
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  font-family: Arcadia, sans-serif;
+  color: #e8dbee;
+  text-align: center;
+}
+
+.photo-one{
+  position: relative;
+  z-index: 1;
+}
+
+.trapecia-one:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-one:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-two:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-two:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-three:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-three:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-fou:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-fou:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+
+trapecia-one:hover{
+  position: absolute;
+  background: rgba(214, 23, 198, 0.5);
+  background-image: url(./img/folder/heart.png);
+}
+
+.circle-one{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+    width: 60px; 
+    height: 60px;
+    background: #f0a128;
+    border-radius: 50%;
+}
+
+
+.photo-fou{
+  position: relative;
+}
+
+.circle-fou{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+    width: 60px; 
+    height: 60px;
+    background: #f0a128;
+    border-radius: 50%;
+}
+
+.photo-five{
+   position: relative;
+}
+
+.circle-five{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+    width: 60px; 
+    height: 60px;
+    background: #f0a128;
+    border-radius: 50%;
+}
+
+.photo-eight{
+   position: relative;
+}
+
+.circle-eight{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+    width: 60px; 
+    height: 60px;
+    background: #f0a128;
+    border-radius: 50%;
+}
+
+.trapecia-one, .trapecia-two, .trapecia-three, .trapecia-fou{
+  position: relative;
+  bottom: 62px;
+    left: 40px;
+    height: 5; 
+    width: 100px;
+    border-bottom: 60px solid #b046de;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+
+.two-row{
+  display: flex;
+  justify-content: space-around;
+}
+
+.trapecia-five:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-five:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-six:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 348px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-six:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-seven:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 349px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-seven:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+.trapecia-eight:before{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 345px;
+  position: absolute;
+  background: rgba(0,0,0,0);
+  z-index: 4;
+}
+
+.trapecia-eight:hover:before{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -60px;
+  right: -100px;
+}
+
+
+.trapecia-five, .trapecia-six, .trapecia-seven, .trapecia-eight{
+  position: relative;
+  bottom: 63px;
+    left: 40px;
+    height: 5; 
+    width: 100px;
+    border-bottom: 60px solid #b046de;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+
+/*ФУТЕР____________________________________________*/
+
+.footer{
+    background-color: #292929;
+    color: white;
+}
+
+a:hover{
+    text-shadow: 0 0 15px #ca09f9;
+    -webkit-text-shadow:0 0 15px #ca09f9; 
+    text-shadow:0 0 15px #ca09f9;  
+}
+
+.inline-text-1{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.texts-footer-1{
+  
+}
+
+.shops{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 25px;
+}
+
+.main-menu-footer-1{
+    
+}
+
+.main-menu-footer-1 li{
+    margin: 10px;
+}
+
+.main-menu-footer-1 a{
+   color: white;
+   text-decoration: none;
+   font-family: Agency FB V2, sans-serif; 
+   font-size: 15px;
+}
+
+
+
+.inline-text-2{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.texts-footer-2{
+
+}
+
+.inf{
+    font-family: Agency FB V2, sans-serif;
+    font-size: 25px;
+}
+
+.main-menu-footer-2{
+    
+}
+
+.main-menu-footer-2 li{
+    margin: 10px;
+}
+
+.main-menu-footer-2 a{
+   color: white;
+   text-decoration: none;
+   font-family: Agency FB V2, sans-serif; 
+   font-size: 15px;
+}
+
+
+.inline-text-3{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.texts-footer-3{
+
+}
+
+.customer{
+    font-family: Agency FB V2, sans-serif;
+    font-size: 25px;
+}
+
+.main-menu-footer-3{
+    
+}
+
+.main-menu-footer-3 li{
+    margin: 10px;
+}
+
+.main-menu-footer-3 a{
+   color: white;
+   text-decoration: none;
+   font-family: Agency FB V2, sans-serif; 
+   font-size: 15px;
+}
+
+
+.inline-text-4{
+    display: inline-block;
+}
+
+.texts-footer-4{
+    position: relative;
+    bottom: 83px;
+}
+
+.stay{
+    font-family: Agency FB V2, sans-serif;
+    font-size: 25px;
+}
+
+.social-footer{
+    position: relative;
+   font-size: 45px;
+   right: 30px;
+}
+
+.social-footer li{
+    display: inline-block;
+    margin: 30px;
+}
+
+.social-footer li a:hover{
+    text-shadow: 0 0 15px #f7f0fa;
+    -webkit-text-shadow:0 0 15px #faf0f0; 
+    text-shadow:0 0 15px #f7f0fa;  
+}
+
+.subscribe{
+    position: relative;
+    font-family: Agency FB V2, sans-serif;
+    font-size: 20px;
+    left: 30px;
+}
+
+.form-btn{
+    position: absolute;
+    top: 180px;
+}
+
+form-btn-em{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+input[type="search-btn"]{
+  outline: none;
+  border: 2px solid #b126ab;
+  padding: 5px 100px 5px 30px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: #53494f;
+  border-radius: 25px;
+  font-family: Agency FB V2, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+button[type="submit-btn"]{
+  position: absolute; top: 13px; right: -120px;
+  z-index: 9;
+  outline: none;
+  border: none;
+  display: inline-block;
+  background: #8e17a9;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-family: Agency FB V2, sans-serif;
+  font-size: 15px;
+}
+
+button[type="submit-btn"]:hover{
+  background: #1a96cf;
+}
+
+.copyright{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   margin-top: 60px;
+   padding-left: 40px;
+}
+
+.pay{
+   display: inline-flex;
+   padding-left: 30px;
+   margin-top: 20px;
+}
+
+.visa{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   margin: 10px;
+}
+
+.master-card{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   margin: 10px;
+}
+
+.ae{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   margin: 10px;
+}
+
+.dis{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   margin: 10px;
+}
+
+.aftor{
+   font-family: Agency FB V2, sans-serif;
+   font-size: 15px;
+   text-decoration: none;
+   color: #b126ab;
+}
